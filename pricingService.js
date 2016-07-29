@@ -10,7 +10,7 @@ app.get('/home/', function (req, res, next) {
   res.send('Welcome home!');
 });
 
-var server = app.listen(3000, function () {
+var server = app.listen(8080, function () {
   var host = server.address().address;
   var port = server.address().port;
 

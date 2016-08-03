@@ -25,7 +25,7 @@ else {
 }
 
 app.get('/', function (req, res, next) {
-  var result = 'Pricing Service version 1.0.4 on host: ' + os.hostname();
+  var result = 'Pricing Service on OpenShift Origing on pod: ' + os.hostname();
   res.send(result);
 });
 

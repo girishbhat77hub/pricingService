@@ -25,7 +25,7 @@ else {
 }
 
 app.get('/', function (req, res, next) {
-  var result = 'Testing Jenkins continuous deployment of the Pricing Service on OpenShift Online on pod: ' + os.hostname();
+  var result = 'Continuous Deployment with Jenkins and OpenShift Online on pod: ' + os.hostname();
   res.send(result);
 });
 

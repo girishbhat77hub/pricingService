@@ -25,7 +25,7 @@ else {
 }
 
 app.get('/', function (req, res, next) {
-  var result = 'Continuous Delivery with Jenkins and Git Webhook on OpenShift Online. Pod: ' + os.hostname();
+  var result = 'This is a demo for Continuous Delivery with Jenkins and Git Webhook on OpenShift Online. Pod: ' + os.hostname();
   res.send(result);
 });
 

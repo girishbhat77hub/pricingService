@@ -25,7 +25,7 @@ else {
 }
 
 app.get('/', function (req, res, next) {
-  var result = 'Webhook. Pod: ' + os.hostname();
+  var result = 'Another Webhook. Pod: ' + os.hostname();
   res.send(result);
 });
 
